@@ -1,13 +1,16 @@
-name: Hourly TensorPix Bot (45m trigger)
+name: Periodic TensorPix Bot (30m trigger)
 
 on:
   schedule:
-    - cron: '*/45 * * * *'  # Runs every 45 minutes
+    - cron: '*/30 * * * *'  # Runs every 30 minutes
   workflow_dispatch:        # Allows manual trigger
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    concurrency:
+      group: tensorpix-bot
+      cancel-in-progress: false # Ensure runs don't overlap but finish sequentially
     permissions:
       contents: write       # Needed to push changes back to repo
 
@@ -15,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0    # Ensure full history for pushing
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,7 +36,33 @@ jobs:
         env:
           BOOMLIFY_API_KEY: ${{ secrets.BOOMLIFY_API_KEY }}
         run: |
-          # Run with count 1 for the automated cycle
+          # The script now checks last_run.txt for better spacing
+          python "tesorpixbotmaker(1).py" --api-key "$BOOMLIFY_API_KEY" --count 1 --random-delay
+
+      - name: Upload credentials as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: account-credentials
+          path: account_credentials.txt
+          if-no-files-found: warn
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Pull latest changes to avoid conflicts if multiple runs happen
+          git pull --rebase origin main || echo "No changes to pull"
+          
+          # Add all modified files
+          git add account_credentials.txt last_run.txt tensorpix_bot.log || true
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update bot state [skip ci]"
+            git push origin main
+          fi
           # The script appends to account_credentials.txt in the current directory
           python "tesorpixbotmaker(1).py" --api-key "$BOOMLIFY_API_KEY" --count 1
 
