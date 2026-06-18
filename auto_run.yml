@@ -1,0 +1,60 @@
+name: Hourly TensorPix Bot (45m trigger)
+
+on:
+  schedule:
+    - cron: '*/45 * * * *'  # Runs every 45 minutes
+  workflow_dispatch:        # Allows manual trigger
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Needed to push changes back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # Ensure full history for pushing
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run TensorPix Bot
+        env:
+          BOOMLIFY_API_KEY: ${{ secrets.BOOMLIFY_API_KEY }}
+        run: |
+          # Run with count 1 for the automated cycle
+          # The script appends to account_credentials.txt in the current directory
+          python "tesorpixbotmaker(1).py" --api-key "$BOOMLIFY_API_KEY" --count 1
+
+      - name: Upload credentials as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: account-credentials
+          path: account_credentials.txt
+          if-no-files-found: warn
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # Ensure file exists before adding
+          touch account_credentials.txt
+          git add account_credentials.txt
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update credentials from bot [skip ci]"
+            git push
+          fi
