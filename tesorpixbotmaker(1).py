@@ -46,11 +46,10 @@ CROXYPROXY_URL = "https://www.croxyproxy.com"
 CROXYPROXY_LOAD_WAIT_S = 8  # seconds to wait after entering URL
 
 REGISTER_URL = (
-    "https://app.tensorpix.ai/register?referral=AMTyHXgxQqD6PaDT"
+    "https://app.tensorpix.ai/register"
 )
 LOGIN_URL = (
     "https://app.tensorpix.ai/login"
-    "?referral=AMTyHXgxQqD6PaDT"
 )
 
 DEFAULT_PASSWORD = "TpixAcc2026!"
