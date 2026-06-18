@@ -1,0 +1,47 @@
+name: Hourly TensorPix Bot
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run TensorPix Bot
+        env:
+          BOOMLIFY_API_KEY: ${{ secrets.BOOMLIFY_API_KEY }}
+        run: |
+          # Running with count 1 as requested for hourly automation
+          python "tesorpixbotmaker(1).py" --api-key "$BOOMLIFY_API_KEY" --count 1
+
+      - name: Upload credentials as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: account-credentials
+          path: account_credentials.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add account_credentials.txt tensorpix_bot.log
+          git commit -m "Auto-update credentials [skip ci]" || echo "No changes to commit"
+          git push
