@@ -586,3 +586,45 @@ Call log:
 [2026-06-23 17:34:39] [INFO] SUMMARY: 1 created, 0 failed (of 1 requested)
 [2026-06-23 17:34:39] [INFO] Credentials saved to: account_credentials.txt
 [2026-06-23 17:34:39] [INFO] ============================================================
+[2026-06-23 22:50:36] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-06-23 22:50:36] [INFO] Target accounts : 1
+[2026-06-23 22:50:36] [INFO] Password        : TpixAcc2026!
+[2026-06-23 22:50:36] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-06-23 22:50:36] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-06-23 22:50:36] [INFO] Credentials file: account_credentials.txt
+[2026-06-23 22:50:36] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-06-23 22:50:37] [INFO] ------------------------------------------------------------
+[2026-06-23 22:50:37] [INFO] Starting account 1 of 1
+[2026-06-23 22:50:37] [INFO] ============================================================
+[2026-06-23 22:50:37] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-06-23 22:50:38] [INFO] Created inbox: y5s2mhcn@bobthebuidnns.opik.net  (id=7a6bbe70-8cc0-4614-905d-d54ef0d6b0a2)
+[2026-06-23 22:50:38] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-06-23 22:50:41] [INFO] CroxyProxy: typing target URL into input bar
+[2026-06-23 22:50:42] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-06-23 22:50:50] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.34.45/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-06-23 22:50:50] [INFO] Register attempt 1/3
+[2026-06-23 22:50:51] [INFO] Register: entered email
+[2026-06-23 22:50:51] [INFO] Register: entered password
+[2026-06-23 22:50:52] [INFO] Register: clicked 'Create account'
+[2026-06-23 22:50:58] [INFO] ACCOUNT 1 — registration submitted, waiting for email ...
+[2026-06-23 22:50:58] [INFO] Polling for verification email (inbox=7a6bbe70-8cc0-4614-905d-d54ef0d6b0a2, timeout=180s) ...
+[2026-06-23 22:51:04] [INFO] Verification link found (poll #2)
+[2026-06-23 22:51:04] [INFO] ACCOUNT 1 — verification link: https://app.tensorpix.ai/verify-user/?user_id=2926311&timestamp=1782255053&signature=a8mz2jNs151cq1v
+[2026-06-23 22:51:04] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-06-23 22:51:07] [INFO] CroxyProxy: typing target URL into input bar
+[2026-06-23 22:51:09] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-06-23 22:51:17] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.34.177/login?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-06-23 22:51:17] [INFO] ACCOUNT 1 — verification page loaded, waiting ...
+[2026-06-23 22:51:22] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-06-23 22:51:26] [INFO] CroxyProxy: typing target URL into input bar
+[2026-06-23 22:51:27] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-06-23 22:51:35] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.90.163/login?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-06-23 22:51:35] [INFO] Login: entered email
+[2026-06-23 22:51:35] [INFO] Login: entered password
+[2026-06-23 22:51:36] [INFO] Login: clicked 'Sign in'
+[2026-06-23 22:51:42] [INFO] ACCOUNT 1 — logged in, waiting 5s ...
+[2026-06-23 22:51:48] [INFO] ACCOUNT 1 — DONE  email=y5s2mhcn@bobthebuidnns.opik.net  saved to account_credentials.txt
+[2026-06-23 22:51:48] [INFO] ============================================================
+[2026-06-23 22:51:48] [INFO] SUMMARY: 1 created, 0 failed (of 1 requested)
+[2026-06-23 22:51:48] [INFO] Credentials saved to: account_credentials.txt
+[2026-06-23 22:51:48] [INFO] ============================================================
