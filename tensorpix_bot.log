@@ -1578,3 +1578,41 @@ Call log:
 [2026-07-01 18:32:51] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-07-01 18:32:51] [INFO] Credentials saved to: account_credentials.txt
 [2026-07-01 18:32:51] [INFO] ============================================================
+[2026-07-01 22:52:52] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-07-01 22:52:52] [INFO] Target accounts : 1
+[2026-07-01 22:52:52] [INFO] Password        : TpixAcc2026!
+[2026-07-01 22:52:52] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-07-01 22:52:52] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-07-01 22:52:52] [INFO] Credentials file: account_credentials.txt
+[2026-07-01 22:52:52] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-07-01 22:52:54] [INFO] ------------------------------------------------------------
+[2026-07-01 22:52:54] [INFO] Starting account 1 of 1
+[2026-07-01 22:52:54] [INFO] ============================================================
+[2026-07-01 22:52:54] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-07-01 22:52:54] [INFO] Created inbox: r3x6ejcr@bobthebuidnns.opik.net  (id=cb0e63b8-1af0-48b5-b062-e87419e8db9e)
+[2026-07-01 22:52:54] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-07-01 22:52:58] [INFO] CroxyProxy: typing target URL into input bar
+[2026-07-01 22:52:58] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-07-01 22:53:06] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.88.29/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-07-01 22:53:06] [INFO] Register attempt 1/3
+[2026-07-01 22:53:07] [INFO] Register: entered email
+[2026-07-01 22:53:07] [INFO] Register: entered password
+[2026-07-01 22:53:08] [INFO] Register: clicked 'Create account'
+[2026-07-01 22:53:14] [INFO] ACCOUNT 1 — registration submitted, waiting for email ...
+[2026-07-01 22:53:14] [INFO] Polling for verification email (inbox=cb0e63b8-1af0-48b5-b062-e87419e8db9e, timeout=180s) ...
+[2026-07-01 22:53:26] [INFO] No link yet — 12s elapsed, poll #3
+[2026-07-01 22:53:45] [INFO] No link yet — 30s elapsed, poll #6
+[2026-07-01 22:54:03] [INFO] No link yet — 48s elapsed, poll #9
+[2026-07-01 22:54:21] [INFO] No link yet — 66s elapsed, poll #12
+[2026-07-01 22:54:39] [INFO] No link yet — 84s elapsed, poll #15
+[2026-07-01 22:54:57] [INFO] No link yet — 103s elapsed, poll #18
+[2026-07-01 22:55:15] [INFO] No link yet — 121s elapsed, poll #21
+[2026-07-01 22:55:34] [INFO] No link yet — 139s elapsed, poll #24
+[2026-07-01 22:55:52] [INFO] No link yet — 157s elapsed, poll #27
+[2026-07-01 22:56:10] [INFO] No link yet — 175s elapsed, poll #30
+[2026-07-01 22:56:16] [ERROR] Verification email not received within 180s
+[2026-07-01 22:56:16] [ERROR] ACCOUNT 1 — no verification link received
+[2026-07-01 22:56:16] [INFO] ============================================================
+[2026-07-01 22:56:16] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-07-01 22:56:16] [INFO] Credentials saved to: account_credentials.txt
+[2026-07-01 22:56:16] [INFO] ============================================================
