@@ -3019,3 +3019,25 @@ Call log:
 [2026-07-08 19:20:00] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-07-08 19:20:00] [INFO] Credentials saved to: account_credentials.txt
 [2026-07-08 19:20:00] [INFO] ============================================================
+[2026-07-08 20:44:15] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-07-08 20:44:15] [INFO] Target accounts : 1
+[2026-07-08 20:44:15] [INFO] Password        : TpixAcc2026!
+[2026-07-08 20:44:15] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-07-08 20:44:15] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-07-08 20:44:15] [INFO] Credentials file: account_credentials.txt
+[2026-07-08 20:44:15] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-07-08 20:44:16] [INFO] ------------------------------------------------------------
+[2026-07-08 20:44:16] [INFO] Starting account 1 of 1
+[2026-07-08 20:44:16] [INFO] ============================================================
+[2026-07-08 20:44:16] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-07-08 20:44:17] [ERROR] Boomlify create HTTP 402: {"error":"Insufficient credits","message":"Insufficient credits: need 1, have 0","code":"INSUFFICIENT_CREDITS","solution":{"message":"Purchase more credits or wait for daily free credit reset","daily_reset":"2026-07-09T00:00:00.000Z","purchase_url":"/billing"}}
+[2026-07-08 20:44:17] [WARNING] Inbox creation attempt 1 failed, retrying ...
+[2026-07-08 20:44:19] [ERROR] Boomlify create HTTP 402: {"error":"Insufficient credits","message":"Insufficient credits: need 1, have 0","code":"INSUFFICIENT_CREDITS","solution":{"message":"Purchase more credits or wait for daily free credit reset","daily_reset":"2026-07-09T00:00:00.000Z","purchase_url":"/billing"}}
+[2026-07-08 20:44:19] [WARNING] Inbox creation attempt 2 failed, retrying ...
+[2026-07-08 20:44:21] [ERROR] Boomlify create HTTP 402: {"error":"Insufficient credits","message":"Insufficient credits: need 1, have 0","code":"INSUFFICIENT_CREDITS","solution":{"message":"Purchase more credits or wait for daily free credit reset","daily_reset":"2026-07-09T00:00:00.000Z","purchase_url":"/billing"}}
+[2026-07-08 20:44:21] [WARNING] Inbox creation attempt 3 failed, retrying ...
+[2026-07-08 20:44:23] [ERROR] ACCOUNT 1 — could not create temp email
+[2026-07-08 20:44:23] [INFO] ============================================================
+[2026-07-08 20:44:23] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-07-08 20:44:23] [INFO] Credentials saved to: account_credentials.txt
+[2026-07-08 20:44:23] [INFO] ============================================================
