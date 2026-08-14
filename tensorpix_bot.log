@@ -30980,3 +30980,56 @@ Call log:
 [2026-08-14 05:15:05] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-08-14 05:15:05] [INFO] Credentials saved to: account_credentials.txt
 [2026-08-14 05:15:05] [INFO] ============================================================
+[2026-08-14 06:58:19] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-08-14 06:58:19] [INFO] Target accounts : 1
+[2026-08-14 06:58:19] [INFO] Password        : TpixAcc2026!
+[2026-08-14 06:58:19] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-08-14 06:58:19] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-08-14 06:58:19] [INFO] Credentials file: account_credentials.txt
+[2026-08-14 06:58:19] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-08-14 06:58:21] [INFO] ------------------------------------------------------------
+[2026-08-14 06:58:21] [INFO] Starting account 1 of 1
+[2026-08-14 06:58:21] [INFO] ============================================================
+[2026-08-14 06:58:21] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-08-14 06:58:22] [INFO] Created inbox: 5pcgvegb@bobthebuidnns.opik.net  (id=115520e1-9a77-46fb-8090-4ac15520b7e4)
+[2026-08-14 06:58:22] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-14 06:58:26] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-14 06:58:27] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-14 06:58:35] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.5.51/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-14 06:58:35] [INFO] Register attempt 1/3
+[2026-08-14 06:58:35] [INFO] Register: entered email
+[2026-08-14 06:58:36] [INFO] Register: entered password
+[2026-08-14 06:58:46] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-14 06:58:46] [WARNING] Register attempt 1 failed
+[2026-08-14 06:58:46] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-14 06:58:49] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-14 06:58:50] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-14 06:58:58] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.6.89/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-14 06:59:00] [INFO] Register attempt 2/3
+[2026-08-14 06:59:01] [INFO] Register: entered email
+[2026-08-14 06:59:01] [INFO] Register: entered password
+[2026-08-14 06:59:11] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-14 06:59:11] [WARNING] Register attempt 2 failed
+[2026-08-14 06:59:11] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-14 06:59:15] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-14 06:59:15] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-14 06:59:23] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.32.73/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-14 06:59:25] [INFO] Register attempt 3/3
+[2026-08-14 06:59:26] [INFO] Register: entered email
+[2026-08-14 06:59:26] [INFO] Register: entered password
+[2026-08-14 06:59:37] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-14 06:59:37] [WARNING] Register attempt 3 failed
+[2026-08-14 06:59:37] [ERROR] ACCOUNT 1 — registration form submission failed
+[2026-08-14 06:59:37] [INFO] ============================================================
+[2026-08-14 06:59:37] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-08-14 06:59:37] [INFO] Credentials saved to: account_credentials.txt
+[2026-08-14 06:59:37] [INFO] ============================================================
