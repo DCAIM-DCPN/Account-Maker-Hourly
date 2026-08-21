@@ -42373,3 +42373,58 @@ Call log:
 [2026-08-21 11:32:21] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-08-21 11:32:21] [INFO] Credentials saved to: account_credentials.txt
 [2026-08-21 11:32:21] [INFO] ============================================================
+[2026-08-21 11:58:36] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-08-21 11:58:36] [INFO] Target accounts : 1
+[2026-08-21 11:58:36] [INFO] Password        : TpixAcc2026!
+[2026-08-21 11:58:36] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-08-21 11:58:36] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-08-21 11:58:36] [INFO] Credentials file: account_credentials.txt
+[2026-08-21 11:58:36] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-08-21 11:58:38] [INFO] ------------------------------------------------------------
+[2026-08-21 11:58:38] [INFO] Starting account 1 of 1
+[2026-08-21 11:58:38] [INFO] ============================================================
+[2026-08-21 11:58:38] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-08-21 11:58:40] [ERROR] Boomlify create HTTP 502: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>502</title>
+    <style>@font-face {
+  font-family: "Roobert";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("data:font/woff2;base64,d09GMk9UVE8AAKewAAwAAAABa6QAAKdfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYKmehqCHhuC4UocpRQGYACLBgE2AiQDkygEBgWFRwcgW8pqkQKZcr0u0nk2H+gc25rBL5CqkDOqYXNqo87dNmL1mgByHi4yIGwcgLFJz2f/////f/pSkaHK
+[2026-08-21 11:58:40] [WARNING] Inbox creation attempt 1 failed, retrying ...
+[2026-08-21 11:58:43] [ERROR] Boomlify create HTTP 502: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>502</title>
+    <style>@font-face {
+  font-family: "Roobert";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("data:font/woff2;base64,d09GMk9UVE8AAKewAAwAAAABa6QAAKdfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYKmehqCHhuC4UocpRQGYACLBgE2AiQDkygEBgWFRwcgW8pqkQKZcr0u0nk2H+gc25rBL5CqkDOqYXNqo87dNmL1mgByHi4yIGwcgLFJz2f/////f/pSkaHK
+[2026-08-21 11:58:43] [WARNING] Inbox creation attempt 2 failed, retrying ...
+[2026-08-21 11:58:46] [ERROR] Boomlify create HTTP 502: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>502</title>
+    <style>@font-face {
+  font-family: "Roobert";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("data:font/woff2;base64,d09GMk9UVE8AAKewAAwAAAABa6QAAKdfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYKmehqCHhuC4UocpRQGYACLBgE2AiQDkygEBgWFRwcgW8pqkQKZcr0u0nk2H+gc25rBL5CqkDOqYXNqo87dNmL1mgByHi4yIGwcgLFJz2f/////f/pSkaHK
+[2026-08-21 11:58:46] [WARNING] Inbox creation attempt 3 failed, retrying ...
+[2026-08-21 11:58:48] [ERROR] ACCOUNT 1 — could not create temp email
+[2026-08-21 11:58:48] [INFO] ============================================================
+[2026-08-21 11:58:48] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-08-21 11:58:48] [INFO] Credentials saved to: account_credentials.txt
+[2026-08-21 11:58:48] [INFO] ============================================================
