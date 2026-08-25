@@ -50591,3 +50591,58 @@ Call log:
 [2026-08-25 17:10:07] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-08-25 17:10:07] [INFO] Credentials saved to: account_credentials.txt
 [2026-08-25 17:10:07] [INFO] ============================================================
+[2026-08-25 17:56:08] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-08-25 17:56:08] [INFO] Target accounts : 1
+[2026-08-25 17:56:08] [INFO] Password        : TpixAcc2026!
+[2026-08-25 17:56:08] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-08-25 17:56:08] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-08-25 17:56:08] [INFO] Credentials file: account_credentials.txt
+[2026-08-25 17:56:08] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-08-25 17:56:09] [INFO] ------------------------------------------------------------
+[2026-08-25 17:56:09] [INFO] Starting account 1 of 1
+[2026-08-25 17:56:09] [INFO] ============================================================
+[2026-08-25 17:56:09] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-08-25 17:56:10] [INFO] Created inbox: aal0zfay@bobthebuidnns.opik.net  (id=1f6129d5-1b35-4632-9b96-a217f29ddbbf)
+[2026-08-25 17:56:10] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-25 17:56:28] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-25 17:56:28] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-25 17:56:44] [INFO] CroxyProxy: page ready (current URL fragment: https://www.croxyproxy.com/servers)
+[2026-08-25 17:56:44] [INFO] Register attempt 1/3
+[2026-08-25 17:56:59] [ERROR] Register form error: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"email\"], input[name=\"email\"], input[placeholder*=\"email\"]").first to be visible
+    - waiting for navigation to finish...
+    - navigated to "https://108.181.32.49/__cpi.php?s=RXFOUlV0ZjFxdHg5L1VGd1ZrazRKZm5iR3ZOZ1ZobVlPVHpTcWRGdnJBbkoxRHd1N096U0U0V1ZCemZEcXFVZGdraEQxUGE2MXZEMG1hSFRkNzhwTy9hbFlMT2ZTYlR4a3Mwb0hMWmw5bkVwQUxqbVR5VFpRKzlXM2dqU…"
+    - waiting for "https://108.181.32.49/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp" navigation to finish...
+    - navigated to "https://108.181.32.49/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp"
+
+[2026-08-25 17:56:59] [WARNING] Register attempt 1 failed
+[2026-08-25 17:56:59] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-25 17:57:12] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-25 17:57:13] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-25 17:57:23] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.32.49/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-25 17:57:25] [INFO] Register attempt 2/3
+[2026-08-25 17:57:26] [INFO] Register: entered email
+[2026-08-25 17:57:26] [INFO] Register: entered password
+[2026-08-25 17:57:36] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-25 17:57:36] [WARNING] Register attempt 2 failed
+[2026-08-25 17:57:36] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-25 17:57:42] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-25 17:57:43] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-25 17:57:51] [INFO] CroxyProxy: page ready (current URL fragment: https://208.87.241.149/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-25 17:57:53] [INFO] Register attempt 3/3
+[2026-08-25 17:57:53] [INFO] Register: entered email
+[2026-08-25 17:57:54] [INFO] Register: entered password
+[2026-08-25 17:58:04] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-25 17:58:04] [WARNING] Register attempt 3 failed
+[2026-08-25 17:58:04] [ERROR] ACCOUNT 1 — registration form submission failed
+[2026-08-25 17:58:04] [INFO] ============================================================
+[2026-08-25 17:58:04] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-08-25 17:58:04] [INFO] Credentials saved to: account_credentials.txt
+[2026-08-25 17:58:04] [INFO] ============================================================
