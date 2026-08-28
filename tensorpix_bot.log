@@ -52551,3 +52551,55 @@ Call log:
 [2026-08-28 13:41:12] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-08-28 13:41:12] [INFO] Credentials saved to: account_credentials.txt
 [2026-08-28 13:41:12] [INFO] ============================================================
+[2026-08-28 23:22:37] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-08-28 23:22:37] [INFO] Target accounts : 1
+[2026-08-28 23:22:37] [INFO] Password        : TpixAcc2026!
+[2026-08-28 23:22:37] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-08-28 23:22:37] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-08-28 23:22:37] [INFO] Credentials file: account_credentials.txt
+[2026-08-28 23:22:37] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-08-28 23:22:38] [INFO] ------------------------------------------------------------
+[2026-08-28 23:22:38] [INFO] Starting account 1 of 1
+[2026-08-28 23:22:38] [INFO] ============================================================
+[2026-08-28 23:22:38] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-08-28 23:22:39] [INFO] Created inbox: qhqdptqm@bobthebuidnns.opik.net  (id=cadb0cb3-1422-4f89-90dc-854d5cfb026d)
+[2026-08-28 23:22:39] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-28 23:22:43] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-28 23:22:43] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-28 23:22:51] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.33.119/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-28 23:22:51] [INFO] Register attempt 1/3
+[2026-08-28 23:22:52] [INFO] Register: entered email
+[2026-08-28 23:22:52] [INFO] Register: entered password
+[2026-08-28 23:23:03] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-28 23:23:03] [WARNING] Register attempt 1 failed
+[2026-08-28 23:23:03] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-28 23:23:06] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-28 23:23:06] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-28 23:23:44] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.43.67/__cpi.php?s=RXFOUlV0ZjFxdHg5L1VGd1ZrazRKZm5iR3ZOZ1ZobVlPVHpTcWRGdnJBbXpJOHp0UG84b2ZNZXJ2RmJZOTROMW)
+[2026-08-28 23:23:46] [INFO] Register attempt 2/3
+[2026-08-28 23:24:01] [ERROR] Register form error: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"email\"], input[name=\"email\"], input[placeholder*=\"email\"]").first to be visible
+    - waiting for "https://108.181.43.67/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp" navigation to finish...
+
+[2026-08-28 23:24:07] [WARNING] Register attempt 2 failed
+[2026-08-28 23:24:07] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-08-28 23:24:10] [INFO] CroxyProxy: typing target URL into input bar
+[2026-08-28 23:24:11] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-08-28 23:24:19] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.3.54/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-08-28 23:24:21] [INFO] Register attempt 3/3
+[2026-08-28 23:24:22] [INFO] Register: entered email
+[2026-08-28 23:24:22] [INFO] Register: entered password
+[2026-08-28 23:24:32] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-08-28 23:24:32] [WARNING] Register attempt 3 failed
+[2026-08-28 23:24:32] [ERROR] ACCOUNT 1 — registration form submission failed
+[2026-08-28 23:24:32] [INFO] ============================================================
+[2026-08-28 23:24:32] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-08-28 23:24:32] [INFO] Credentials saved to: account_credentials.txt
+[2026-08-28 23:24:32] [INFO] ============================================================
