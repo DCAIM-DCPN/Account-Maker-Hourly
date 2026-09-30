@@ -63150,3 +63150,54 @@ Call log:
 [2026-09-30 09:19:06] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-09-30 09:19:06] [INFO] Credentials saved to: account_credentials.txt
 [2026-09-30 09:19:06] [INFO] ============================================================
+[2026-09-30 16:06:18] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-09-30 16:06:18] [INFO] Target accounts : 1
+[2026-09-30 16:06:18] [INFO] Password        : TpixAcc2026!
+[2026-09-30 16:06:18] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-09-30 16:06:18] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-09-30 16:06:18] [INFO] Credentials file: account_credentials.txt
+[2026-09-30 16:06:18] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-09-30 16:06:19] [INFO] ------------------------------------------------------------
+[2026-09-30 16:06:19] [INFO] Starting account 1 of 1
+[2026-09-30 16:06:19] [INFO] ============================================================
+[2026-09-30 16:06:19] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-09-30 16:06:20] [INFO] Created inbox: 73wq3ln8@bobthebuidnns.opik.net  (id=7a3f7957-159c-4585-8ce6-23e8ab18ac04)
+[2026-09-30 16:06:20] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-09-30 16:06:32] [INFO] CroxyProxy: typing target URL into input bar
+[2026-09-30 16:06:32] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-09-30 16:06:41] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.32.73/__cpi.php?s=RXFOUlV0ZjFxdHg5L1VGd1ZrazRKZm5iR3ZOZ1ZobVlPVHpTcWRGdnJBbUlFY3FVZUNrNnYxbjkyQmxOT3V2dk)
+[2026-09-30 16:06:41] [INFO] Register attempt 1/3
+[2026-09-30 16:06:56] [ERROR] Register form error: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"email\"], input[name=\"email\"], input[placeholder*=\"email\"]").first to be visible
+    - waiting for "https://108.181.32.73/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp" navigation to finish...
+    - navigated to "https://108.181.32.73/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp"
+
+[2026-09-30 16:07:01] [WARNING] Register attempt 1 failed
+[2026-09-30 16:07:01] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-09-30 16:07:05] [INFO] CroxyProxy: typing target URL into input bar
+[2026-09-30 16:07:05] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-09-30 16:07:13] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.32.63/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-09-30 16:07:15] [INFO] Register attempt 2/3
+[2026-09-30 16:07:30] [ERROR] Register form error: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"email\"], input[name=\"email\"], input[placeholder*=\"email\"]").first to be visible
+
+[2026-09-30 16:07:30] [WARNING] Register attempt 2 failed
+[2026-09-30 16:07:30] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-09-30 16:07:34] [INFO] CroxyProxy: typing target URL into input bar
+[2026-09-30 16:07:34] [INFO] CroxyProxy: waiting 8s for proxied page to load ...
+[2026-09-30 16:07:42] [INFO] CroxyProxy: page ready (current URL fragment: https://108.181.90.129/register?__cpo=aHR0cHM6Ly9hcHAudGVuc29ycGl4LmFp)
+[2026-09-30 16:07:44] [INFO] Register attempt 3/3
+[2026-09-30 16:07:45] [INFO] Register: entered email
+[2026-09-30 16:07:45] [INFO] Register: entered password
+[2026-09-30 16:07:56] [ERROR] Register form error: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text(\"Create account\")")
+
+[2026-09-30 16:07:56] [WARNING] Register attempt 3 failed
+[2026-09-30 16:07:56] [ERROR] ACCOUNT 1 — registration form submission failed
+[2026-09-30 16:07:56] [INFO] ============================================================
+[2026-09-30 16:07:56] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-09-30 16:07:56] [INFO] Credentials saved to: account_credentials.txt
+[2026-09-30 16:07:56] [INFO] ============================================================
