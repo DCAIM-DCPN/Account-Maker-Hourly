@@ -64475,3 +64475,22 @@ Call log:
 [2026-10-05 09:28:02] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
 [2026-10-05 09:28:02] [INFO] Credentials saved to: account_credentials.txt
 [2026-10-05 09:28:02] [INFO] ============================================================
+[2026-10-05 18:43:32] [INFO] TensorPix Account Maker Bot — CroxyProxy Edition
+[2026-10-05 18:43:32] [INFO] Target accounts : 1
+[2026-10-05 18:43:32] [INFO] Password        : TpixAcc2026!
+[2026-10-05 18:43:32] [INFO] Register URL    : https://app.tensorpix.ai/register
+[2026-10-05 18:43:32] [INFO] Login URL       : https://app.tensorpix.ai/login
+[2026-10-05 18:43:32] [INFO] Credentials file: account_credentials.txt
+[2026-10-05 18:43:32] [INFO] Log file        : /home/runner/work/Account-Maker-Hourly/Account-Maker-Hourly/tensorpix_bot.log
+[2026-10-05 18:43:33] [INFO] ------------------------------------------------------------
+[2026-10-05 18:43:33] [INFO] Starting account 1 of 1
+[2026-10-05 18:43:33] [INFO] ============================================================
+[2026-10-05 18:43:33] [INFO] ACCOUNT 1 — creating temp email ...
+[2026-10-05 18:43:34] [INFO] Created inbox: oimxm5k1@bobthebuidnns.opik.net  (id=6285e417-148a-434a-9964-9ab22ee72d82)
+[2026-10-05 18:43:34] [INFO] CroxyProxy: navigating to https://www.croxyproxy.com
+[2026-10-05 18:43:37] [ERROR] CroxyProxy: could not find URL input field
+[2026-10-05 18:43:37] [ERROR] ACCOUNT 1 — CroxyProxy navigation failed for register page
+[2026-10-05 18:43:37] [INFO] ============================================================
+[2026-10-05 18:43:37] [INFO] SUMMARY: 0 created, 1 failed (of 1 requested)
+[2026-10-05 18:43:37] [INFO] Credentials saved to: account_credentials.txt
+[2026-10-05 18:43:37] [INFO] ============================================================
